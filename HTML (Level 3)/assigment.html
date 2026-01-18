@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- question 1  -->
+  <table border="black">
+    <caption>Student information</caption>
+    <tr>
+      <th rowspan="6">Info</th>
+      <th rowspan="2">Name</th>
+      <th colspan="2">Address</th>
+
+    </tr>
+    <tr>
+
+      <th>City</th>
+      <th>House</th>
+    </tr>
+    <tr>
+
+      <td>A</td>
+      <td>Delhi</td>
+      <td>1</td>
+    </tr>
+    <tr>
+
+      <td>B</td>
+      <td>Mumbai</td>
+      <td>2</td>
+    </tr>
+    <tr>
+
+      <td>C</td>
+      <td>Kolkata</td>
+      <td>3</td>
+    </tr>
+    <tr>
+
+      <td>D</td>
+      <td>Pune</td>
+      <td>4</td>
+    </tr>
+  </table>
+  <br>
+  <hr>
+  <!-- question 2 -->
+  <form action="/action">
+    <div>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+    </div>
+    <br>
+    <div>
+      Sex: &nbsp;
+      <label for="male">Male</label>
+      <input type="radio" id="male">
+      <label for="female">Female</label>
+      <input type="radio" id="female">
+    </div>
+    <br>
+    <label for="country">Country:</label>
+
+    <select name="country" id="country-select">
+      <option value="">--Please choose an option--</option>
+      <option value="ind">India</option>
+      <option value="chin">china</option>
+      <option value="americ">America</option>
+      <option value="eng">England</option>
+      <option value="indo">indoneshiya</option>
+      <option value="bhr">Bihar</option>
+    </select>
+    <br>
+    <br>
+    <label for="test">Message:</label>
+    <textarea name="text" id="text"></textarea>
+    <br>
+    <input type="checkbox" id="subs">
+    <label for="subs">Subscribe?</label>
+    <br>
+    <button>Submit</button>
+  </form>
+  <br>
+  <hr>
+
+  <!-- qustion no 2 -->
+  <!-- Recreate the following form using HTML: -->
+  <form action="/serverdown">
+    <h2>Feedback Form</h2>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="nad" placeholder="Write your name">
+      <br>
+      <br>
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="nad" placeholder="Write your email">
+    </div>
+    <br>
+    <div>
+      <label for="fild">Message:</label>
+      <br>
+      <textarea name="messg" id="fild"></textarea>
+    </div>
+    <div>
+      <h4>Rate us our of 5:</h4>
+      <input type="radio" id="one" name="choice" value="1">
+      <label for="one">1</label>
+      <br>
+      <input type="radio" id="two" name="choice" value="2">
+      <label for="two">2</label>
+      <br>
+      <input type="radio" id="three" name="choice" value="3">
+      <label for="three">3</label>
+      <br>
+      <input type="radio" id="four" name="choice" value="4">
+      <label for="four">4</label>
+      <br>
+      <input type="radio" id="five" name="choice" value="5">
+      <label for="five">5</label>
+    </div>
+    <br>
+    <div>
+      <button>Send your message!</button>
+    </div>
+  </form>
+
+</body>
+
+</html>
